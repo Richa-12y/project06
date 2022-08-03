@@ -1,0 +1,152 @@
+*{
+     margin: 0;
+     padding: 0;
+     outline: 0;
+     box-sizing: border-box;
+     font-family: "Allerta";
+}
+#navbarMonstera{
+     display: flex;
+     /* background-color: aqua; */
+     flex-direction: row;
+     width: 100vw;
+     align-items: center;
+     justify-content: space-between;
+     align-items: center;
+    min-height: 10vh;
+}
+#navFirst{
+     width: 100px;
+     height: 50px;
+     margin-left: 4em;
+}
+#navMid::after{
+     content: "";
+     width: 48px;
+     height: 1px;
+     background-color: black;
+     position: absolute;
+     top:90%;
+}
+#navMid{
+     display: flex;
+     flex-direction: row;
+     width: 700px;
+     justify-content: space-between;
+     align-items: center;
+     position: relative;
+}
+#navEnd{
+     display: flex;
+     flex-direction: row;
+     width: 180px;
+     justify-content: space-around;
+     align-items: center;
+     margin-right: 4em;
+
+}
+#midWhole{
+     display: flex;
+     flex-direction: row;
+     
+}
+#midWholePart12{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     /* background-color: aqua; */
+}
+#midWholePart13{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     /* background-color: aqua; */
+}
+
+#imgMain{
+     width: 300px;
+     height: 500px;
+     position: absolute;
+     bottom: 0%;
+     right: 0%;
+}
+#midWholePart13{
+     position: absolute;
+     bottom: 4%;
+     width:65%;
+     left: 5%;
+     
+}
+#midWholePart121{
+     position: absolute;
+     bottom: 35%;
+     left: 5%;
+}
+#midWholePart121{
+     background-color:#466d50;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     font-size: 0.8em;
+     font-weight: 400;
+     padding:1em 2em 1em 2em;
+     border-radius: 28px;
+     color: #ffffff;
+
+
+}
+#midWholePart121 h1{
+     font-size:2em;
+     font-weight: 400;
+     padding-right: 0.5em;
+}
+#midWholePart122 img{
+     width: 10px;
+     margin-top: 0.5em;
+}
+.midWholePart13Parts{
+     display: flex;
+     flex-direction: row;
+     /* background-color: red; */
+     align-items: center;
+    
+}
+.midWholePart13Parts div img{
+     width: 50px;
+     margin-right: 1em;
+}
+.midWholePart13Parts div h1{
+font-size: 0.5em;
+}
+.midWholePart13Parts div p {
+font-size: 0.7em;
+}
+#midWholePart11{
+     position: absolute;
+     left: 3%;
+     top:25%;
+     font-size: 0.7em;
+    
+     
+}
+li:nth-child(1)::before{
+content: '';
+width: 7px;
+height: 7px;
+background-color: transparent;
+border: 1.8px solid black;
+border-radius: 50%;
+position: absolute;
+top: 50%;
+left: -2%;
+
+}
+#monstera{
+     width: 700px;
+     /* background-color: bisque; */
+     font-weight: bolder;
+     font-size: 6.5em;
+}
